@@ -26,3 +26,9 @@ To generate a protobuf file (i.e. 2 people, written to test.pb)
 ```
  mvn exec:java -Dexec.mainClass="com.shaunscaling.protobuftest.Generate" -Dexec.args="2 test.pb"
 ```
+
+To read a protobuf file and print it out
+
+```
+ mvn exec:java -Dexec.mainClass="com.shaunscaling.protobuftest.Read" -Dexec.args="test.pb"
+```

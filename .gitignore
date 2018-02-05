@@ -1,4 +1,4 @@
 .idea/*
 target/*
-src/main/java/com/shaunscaling/protobuftest/*.java
+src/main/java/com/shaunscaling/protobuftest/protos/*.java
 *.pb

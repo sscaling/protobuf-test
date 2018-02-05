@@ -1,7 +1,8 @@
 package com.shaunscaling.protobuftest;
 
-import com.shaunscaling.protobuftest.AddressBookProtos.AddressBook;
-import com.shaunscaling.protobuftest.AddressBookProtos.Person;
+import com.shaunscaling.protobuftest.protos.AddressBookProtos;
+import com.shaunscaling.protobuftest.protos.AddressBookProtos.AddressBook;
+import com.shaunscaling.protobuftest.protos.AddressBookProtos.Person;
 
 import java.io.*;
 import java.util.Random;

@@ -2,3 +2,5 @@
 target/*
 src/main/java/com/shaunscaling/protobuftest/protos/*.java
 *.pb
+*.crc
+*.parquet

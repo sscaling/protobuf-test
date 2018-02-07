@@ -14,6 +14,25 @@
             <artifactId>protobuf-java</artifactId>
             <version>3.5.1</version>
         </dependency>
+
+        <!-- FIXME: what specific dependencies do we need? parquet-common / parquet-protobuf etc... -->
+        <dependency>
+            <groupId>org.apache.parquet</groupId>
+            <artifactId>parquet-common</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.parquet</groupId>
+            <artifactId>parquet-protobuf</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <!-- Required for ProtoParquetWriter -->
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-core</artifactId>
+            <version>0.20.2</version>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
